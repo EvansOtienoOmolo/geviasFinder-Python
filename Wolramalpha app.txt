@@ -1,0 +1,20 @@
+ L6XJP4-84QU4AKG83
+ 
+ Awesome APIS wikipidia and wolframapha
+ # import wolframalpha
+#
+# input = raw_input("Question: ")
+# app_id = "L6XJP4-84QU4AKG83"
+# client = wolframalpha.Client(app_id)
+#
+# res = client.query(input)
+# answer = next(res.results).text
+#
+# print answer
+import wikipedia
+
+while True:
+        input = raw_input("Q: ")
+        #wikipedia.set_lang("")
+        print wikipedia.summary(input, sentences=2)
+
